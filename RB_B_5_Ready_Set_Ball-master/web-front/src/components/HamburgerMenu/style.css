@@ -1,0 +1,110 @@
+.test-hamburger{
+    position: fixed;
+    padding: 10px 2px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 5rem;
+    height: 5rem;
+    z-index: 99;
+	-moz-border-radius: 5rem;
+	-webkit-border-radius: 5rem;
+	border-radius: 5rem;
+
+    border: 1rem;
+    margin: .6rem;
+    font-size:20px;
+    color: white;
+    text-align: center;
+    background: #503e4180; 
+}
+
+.test-hamburger:hover{
+    background: -webkit-linear-gradient(left top, #503e41,#708090); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #503e41,#708090); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #503e41,#708090); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #503e41,#708090); /* Standard syntax (must be last) */
+}
+
+.rsb-menu {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background: black; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #503e4156,#ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #503e4156,#ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #503e4156,#ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #503e4156,#ffffff); /* Standard syntax (must be last) */
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.rsb-menu:hover{
+    background: -webkit-linear-gradient(left top, #503e41c7,#ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #503e41c7,#ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #503e41c7,#ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #503e41c7,#ffffff); /* Standard syntax (must be last) */
+}
+
+.menu-close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: lightgray
+}
+
+.menu-close:hover {
+    color: #f1f1f1;
+    cursor:pointer;
+}
+
+
+.menu-option:hover {
+    color: #f1f1f1;
+    cursor:pointer;
+}
+
+.menu-option {
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(22, 22, 22);
+    display: block; 
+    font-family: "Century Gothic";
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.rsb-user-picture{
+    height: 60px;
+    width: 60px;
+    -moz-border-radius: 5rem;
+	-webkit-border-radius: 5rem;
+	border-radius: 5rem;
+}
+
+.rsb-menu-name, .rsb-menu-username{
+    color: white;  
+    font-size: 28px;
+    font-family: "Century Gothic";
+    text-decoration: none;
+}
+
+.menu-logo {
+    width: 40%;
+    height: 10%;
+    margin: auto;
+
+}
+img.logo {
+    width: 100%;
+    height: 100%;
+}

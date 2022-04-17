@@ -1,0 +1,65 @@
+.rsb-friend-icon{
+    -moz-border-radius: 5rem;
+	-webkit-border-radius: 5rem;
+	border-radius: 5rem;
+	margin-top:5px;
+	width: 85px;
+	height: 85px;
+}
+
+.rsb-friends-panel, .rsb-recent-players-panel{
+	margin-top: 10px;
+}
+
+.rsb-friend-name {
+	display: block;
+}
+
+input[type=search].rsb-friend-search {
+	width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus.rsb-friend-search {
+    width: 50%;
+}
+
+.user-select{
+    border: 3px solid rgba(19, 128, 55, 0.479);
+    background-color: rgba(210, 214, 214, 0.781);
+}
+
+.rsb-friends-invite-button{
+    box-shadow: 1px 5px 5px rgb(3, 53, 10);
+    width: 80px;
+    font-family: 'Proxima Nova Soft','Helvetica Neue',sans-serif;
+}
+
+.user-in-game{
+    border: 3px solid rgb(85, 83, 83);
+    background: #d4a3a3;
+    cursor: not-allowed;
+}
+
+.rsb-friends-invite{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 30px;
+}
+
+.rsb-friend-user-box{
+    margin-left: 10px;
+    border-radius: 3%;
+}
